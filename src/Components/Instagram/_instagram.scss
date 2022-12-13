@@ -1,9 +1,22 @@
-// .instagram_div {
-//     width: 50vw;
-// }
+.instagram_container {
+    margin-top: 6rem;
+    font-weight: 300;
+    p {
+        font-size: 3rem;
+        margin: 0px 0px 4rem 0px;
+    }
+}
+
+.instagram_h3 {
+    color: $gray;
+}
+
 
 .instagram_divImg {
+    height: 20rem;
     width: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 

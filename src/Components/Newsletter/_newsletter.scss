@@ -1,0 +1,35 @@
+.newsletter_container {
+    margin-top: 6rem;
+    font-weight: 400;
+}
+
+.newsletter_h3 {
+    color: $gray;
+}
+
+.newsletter_first_p {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.newsletter_second_p {
+    margin: 0px 0px 4rem 0px;
+}
+
+.newsletter_input {
+    height: 2.5rem;
+    border-width: 2px;
+    border-style: solid;
+    width: 40rem;
+}
+
+.newsletter_button {
+    height: 2.5rem;
+    border-width: 2px;
+    border-style: solid;
+    width: 5rem;
+    color: $black;
+    padding: 0px;
+    height: 2.9rem;
+    border-color: $black;
+}

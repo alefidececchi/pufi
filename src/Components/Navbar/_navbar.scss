@@ -1,4 +1,5 @@
 .navbar_nav {
+    color: azure;
     justify-content: space-between;
     align-items: flex-start;
     padding: 2rem;
@@ -14,10 +15,16 @@
 }
 
 .divPufi {
-    background-color: rgb(224, 149, 149);
+    font-size: 3rem;
 }
 
+.navbar_perfil_options {
+    width: 10rem;
+    font-size: smaller;
+    justify-content: space-between
+}
 
 .navbar_img {
+    padding-bottom: 10px;
     height: 4rem;
 }

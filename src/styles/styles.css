@@ -1,12 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
+  width: 100vw;
   margin: 0px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Raleway", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(242, 255, 255);
 }
 
 h1,
@@ -22,7 +30,7 @@ button {
   background-color: transparent;
   color: rgb(255, 246, 246);
   border-color: rgb(255, 246, 246);
-  padding: 1rem 2rem;
+  padding: 1.5rem 3.5rem;
   border-style: solid;
 }
 
@@ -49,7 +57,62 @@ ul {
   align-items: center;
 }
 
+.footer_container {
+  margin-top: 8rem;
+  width: 100vw;
+  border-top: 1px;
+  box-shadow: 5px 5px 5px 5px rgba(63, 55, 55, 0.6509803922);
+}
+.footer_container a {
+  color: rgb(10, 8, 8);
+}
+.footer_container hr {
+  border-style: solid;
+  width: 85vw;
+  color: rgba(163, 163, 163, 0.28);
+}
+
+.footer_div_1 {
+  padding: 2rem;
+  width: 85vw;
+  justify-content: space-between;
+  height: 12rem;
+  border-bottom: 1px;
+  border-color: rgb(206, 205, 205);
+  align-items: flex-start;
+}
+.footer_div_1 h3 {
+  font-size: 2.5rem;
+}
+
+.footer_div_2 {
+  width: 85vw;
+}
+.footer_div_2 p {
+  color: rgba(163, 163, 163, 0.28);
+  margin: 5px;
+  text-align: left;
+}
+
+.footer_div_min {
+  justify-content: space-between;
+}
+
+.footer_socialMedia {
+  height: 2rem;
+}
+
+.footer_sello {
+  height: 2rem;
+}
+
+.footer_p_smaller {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
 .header_container {
+  color: azure;
   background-image: url("https://img.freepik.com/fotos-premium/mujer-turista-relajante-puff-junto-piscina-hotel_34840-501.jpg?w=2000");
   background-color: green;
   height: 100vh;
@@ -57,14 +120,34 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header_container h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+}
 
 .header_h1,
 .header_button {
   margin-top: 8rem;
 }
 
+.instagram_container {
+  margin-top: 6rem;
+  font-weight: 300;
+}
+.instagram_container p {
+  font-size: 3rem;
+  margin: 0px 0px 4rem 0px;
+}
+
+.instagram_h3 {
+  color: rgba(163, 163, 163, 0.28);
+}
+
 .instagram_divImg {
+  height: 20rem;
   width: 20rem;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -73,6 +156,7 @@ ul {
 }
 
 .navbar_nav {
+  color: azure;
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
@@ -88,11 +172,54 @@ ul {
 }
 
 .divPufi {
-  background-color: rgb(224, 149, 149);
+  font-size: 3rem;
+}
+
+.navbar_perfil_options {
+  width: 10rem;
+  font-size: smaller;
+  justify-content: space-between;
 }
 
 .navbar_img {
+  padding-bottom: 10px;
   height: 4rem;
+}
+
+.newsletter_container {
+  margin-top: 6rem;
+  font-weight: 400;
+}
+
+.newsletter_h3 {
+  color: rgba(163, 163, 163, 0.28);
+}
+
+.newsletter_first_p {
+  font-size: 3rem;
+  margin: 0px;
+}
+
+.newsletter_second_p {
+  margin: 0px 0px 4rem 0px;
+}
+
+.newsletter_input {
+  height: 2.5rem;
+  border-width: 2px;
+  border-style: solid;
+  width: 40rem;
+}
+
+.newsletter_button {
+  height: 2.5rem;
+  border-width: 2px;
+  border-style: solid;
+  width: 5rem;
+  color: rgb(10, 8, 8);
+  padding: 0px;
+  height: 2.9rem;
+  border-color: rgb(10, 8, 8);
 }
 
 .productDiv_section {

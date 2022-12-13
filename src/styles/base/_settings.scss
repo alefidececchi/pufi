@@ -1,10 +1,16 @@
 $white: rgb(255, 246, 246);
+$black: rgb(10, 8, 8);
+$gray: rgb(163 163 163 / 28%);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 body {
+    width: 100vw;
     margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: "Raleway", 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
+    font-weight: 700;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -12,6 +18,11 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(242, 255, 255);
 }
 
 h1,
@@ -27,7 +38,7 @@ button {
     background-color: transparent;
     color: $white;
     border-color: $white;
-    padding: 1rem 2rem;
+    padding: 1.5rem 3.5rem;
     border-style: solid;
 }
 

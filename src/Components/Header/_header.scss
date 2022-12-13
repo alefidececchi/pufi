@@ -1,10 +1,15 @@
 .header_container {
+    color: azure;
     background-image: url("https://img.freepik.com/fotos-premium/mujer-turista-relajante-puff-junto-piscina-hotel_34840-501.jpg?w=2000");
     background-color: green;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    h1 {
+        font-size: 4.5rem;
+        font-weight: 400;
+    }
 }
 
 .header_h1,
