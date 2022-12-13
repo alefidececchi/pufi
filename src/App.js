@@ -1,14 +1,14 @@
-import './App.css';
+// import './App.css';
 import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
 import Instagram from './Components/Instagram/Instagram';
-import Navbar from './Components/Navbar/Navbar';
 import Newsletter from './Components/Newsletter/Newsletter';
 import Products from './Components/Products/Products';
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Header></Header>
       <Products></Products>
       <Instagram></Instagram>
       <Newsletter></Newsletter>

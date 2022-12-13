@@ -5,9 +5,9 @@ const Products = () => {
 
 
     return (
-        <div>
+        <div className="fl-cl-ctr">
             <ProductDiv
-                background=""
+                background="https://w0.peakpx.com/wallpaper/6/752/HD-wallpaper-friends-girl-children-umbrella-yellow-copil-storm-pink-couple.jpg"
                 button="SHOP"
                 description="Descripción del producto. Este es un texto simulado"
                 left={"true"}
@@ -16,14 +16,14 @@ const Products = () => {
                 product="RAIN"
             />
             <ProductDiv
-                background=""
+                background="https://s03.s3c.es/imag/_v0/1200x800/8/0/c/Los-mejores-puffs.jpg"
                 description="Descripción del producto. Este es un texto simulado"
                 id="pufiPuff"
                 imgProduct="https://media.istockphoto.com/id/1036020726/es/foto/beanbag.jpg?s=612x612&w=0&k=20&c=IsRksVJbewM7wM0hkpFhkP99XWIjeEjSt2peO5TqDLs="
                 product="PUFF"
             />
             <ProductDiv
-                background=""
+                background="https://i0.wp.com/betribe.es/wp-content/uploads/2019/03/Savage2-scaled.jpeg?fit=1707%2C2560&ssl=1"
                 description="Descripción del producto. Este es un texto simulado"
                 left={true}
                 id="pufiCart"
@@ -31,7 +31,7 @@ const Products = () => {
                 product="CART"
             />
             <ProductDiv
-                background=""
+                background="https://thumbs.dreamstime.com/b/retrato-de-una-ni%C3%B1a-que-abraza-una-almohada-68483707.jpg"
                 description="Descripción del producto. Este es un texto simulado"
                 id="pufiNap"
                 imgProduct="https://m.media-amazon.com/images/I/31VpWMzfm8L._SL500_.jpg"

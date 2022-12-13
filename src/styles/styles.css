@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+button {
+  background-color: transparent;
+  color: rgb(255, 246, 246);
+  border-color: rgb(255, 246, 246);
+  padding: 1rem 2rem;
+  border-style: solid;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.fl-rw-ctr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fl-cl-ctr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_container {
+  background-image: url("https://img.freepik.com/fotos-premium/mujer-turista-relajante-puff-junto-piscina-hotel_34840-501.jpg?w=2000");
+  background-color: green;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_h1,
+.header_button {
+  margin-top: 8rem;
+}
+
+.instagram_divImg {
+  width: 20rem;
+  background-size: cover;
+}
+
+.instagram_img {
+  height: 15rem;
+}
+
+.navbar_nav {
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  height: 6rem;
+}
+
+.navbar_div {
+  width: 30vw;
+}
+
+.navbar_div_ul {
+  justify-content: space-between;
+}
+
+.divPufi {
+  background-color: rgb(224, 149, 149);
+}
+
+.navbar_img {
+  height: 4rem;
+}
+
+.productDiv_section {
+  width: 100vw;
+}
+
+.productDiv_div {
+  height: 35rem;
+  width: 50vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.productDiv_img {
+  height: 12rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
